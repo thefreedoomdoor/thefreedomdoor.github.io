@@ -1,6 +1,8 @@
 const textEl = document.querySelector('#text');
 const texts = JSON.parse(textEl.getAttribute('data-text'));
 
+
+
 let index = 0;
 let charIndex = 0;
 let delta = 100;
@@ -32,7 +34,7 @@ function type(time){
         
         if(charIndex < 0){
             isDeleting = false;
-            start = time + 100;
+            start = time + 1200;
             index = ++index % texts.length;
         }
     }

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei";
+}
+
+bg {
+    height: 100vh;
+    
+}
+body {
+    background-image: url('../../../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+
+zw{
+    font-size: 25px;
+    color: black;
+    font-family: 'Microsoft YaHei';
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: fit-content;
+}
+
+bt{
+    font-size: 50px;
+    color: black;
+    font-family: 'Microsoft YaHei';
+    text-align: center;
+    margin: 100px auto;
+    display: block;
+    width: fit-content;   
+}
+
+headd {
+    display: flex;
+    background-color: rgb(0,0,0,0.8);
+    justify-content: left;
+    align-items: center;
+    height: 10vh;
+  }
+
+home{
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.nav-button {
+  margin-left: 30px; /* 设置左边距 */
+  text-decoration: none; /* 去掉下划线 */
+  padding: 10px; /* 添加内边距 */
+  background-color: blach; /* 背景颜色 */
+  border-radius: 5px; /* 圆角边框 */
+}
